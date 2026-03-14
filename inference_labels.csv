@@ -1,0 +1,61 @@
+filename,artist,genre,description,phash,width,height,genre_count,subset,genre_clean
+Art_Nouveau_Modern/ivan-bilibin_costume-design-for-the-opera-the-golden-cockerel-by-nikolai-rimsky-korsakov-1908-1(1).jpg,ivan bilibin,['Art Nouveau Modern'],costume-design-for-the-opera-the-golden-cockerel-by-nikolai-rimsky-korsakov-1908-1(1),a636db6d9c18e186,1382,2207,1,train,Art Nouveau Modern
+Art_Nouveau_Modern/ivan-bilibin_bird-alkonost-1905(1).jpg,ivan bilibin,['Art Nouveau Modern'],bird-alkonost-1905(1),bfded017a5e13028,1382,2145,1,train,Art Nouveau Modern
+Art_Nouveau_Modern/ivan-bilibin_postcard-happy-easter-1900.jpg,ivan bilibin,['Art Nouveau Modern'],postcard-happy-easter-1900,b75ac826e4b434d9,1382,2166,1,train,Art Nouveau Modern
+Art_Nouveau_Modern/koloman-moser_stage-design-for-the-lake-of-julius-bittner-1.jpg,koloman moser,['Art Nouveau Modern'],stage-design-for-the-lake-of-julius-bittner-1,fa5ed440f022e2f5,1813,1382,1,train,Art Nouveau Modern
+Art_Nouveau_Modern/koloman-moser_stage-design-for-the-minutes-of-love-by-edward-bauersfeld.jpg,koloman moser,['Art Nouveau Modern'],stage-design-for-the-minutes-of-love-by-edward-bauersfeld,a641932e9a9b6e5a,2042,1382,1,train,Art Nouveau Modern
+Art_Nouveau_Modern/koloman-moser_girl-s-head-cover-design-ver-sacrum-204-1899-1899.jpg,koloman moser,['Art Nouveau Modern'],girl-s-head-cover-design-ver-sacrum-204-1899-1899,ce2fb230d946b90e,1382,1524,1,test,Art Nouveau Modern
+Art_Nouveau_Modern/gustav-klimt_the-dancer-1918.jpg,gustav klimt,['Art Nouveau Modern'],the-dancer-1918,9ebc04f666523783,1382,2951,1,train,Art Nouveau Modern
+Art_Nouveau_Modern/gustav-klimt_medicine-final-state-1907.jpg,gustav klimt,['Art Nouveau Modern'],medicine-final-state-1907,e263cec21efc5c84,1382,2026,1,train,Art Nouveau Modern
+Art_Nouveau_Modern/gustav-klimt_the-beethoven-frieze-the-hostile-powers-far-wall.jpg,gustav klimt,['Art Nouveau Modern'],the-beethoven-frieze-the-hostile-powers-far-wall,de062170de7ec368,4040,1382,1,test,Art Nouveau Modern
+Fauvism/charles-lapicque_oedipe-1964.jpg,charles lapicque,['Fauvism'],oedipe-1964,f8f4f0b4a128e83e,1382,1722,1,train,Fauvism
+Fauvism/charles-lapicque_montagne-en-haute-provence-1976.jpg,charles lapicque,['Fauvism'],montagne-en-haute-provence-1976,af6bd2b491c4c8c9,1898,1382,1,train,Fauvism
+Fauvism/charles-lapicque_les-r-gates.jpg,charles lapicque,['Fauvism'],les-r-gates,901038720d6fd3ff,1823,1382,1,train,Fauvism
+Fauvism/endre-bartos_lesbian-love-1980.jpg,endre bartos,['Fauvism'],lesbian-love-1980,95250ffa11d34e8b,2612,1382,1,train,Fauvism
+Fauvism/endre-bartos_streets-meeting-on-baja-1994.jpg,endre bartos,['Fauvism'],streets-meeting-on-baja-1994,feef178224d89123,1838,1382,1,train,Fauvism
+Fauvism/endre-bartos_magic-1981.jpg,endre bartos,['Fauvism'],magic-1981,db35ec88cc0a1d67,1727,1382,1,train,Fauvism
+Fauvism/joan-miro_ciurana-the-path.jpg,joan miro,"['Fauvism', 'Cubism']",ciurana-the-path,847976a536852fd8,1698,1382,2,train,Fauvism
+Fauvism/joan-miro_not_detected_227961.jpg,joan miro,"['Fauvism', 'Cubism']",not_detected_227961,aab89cd45ddaba08,1382,1817,2,train,Fauvism
+Fauvism/joan-miro_portrait-of-e-c-ricart.jpg,joan miro,['Fauvism'],portrait-of-e-c-ricart,ff80838ef0d0e1ce,1382,1746,1,train,Fauvism
+Impressionism/claude-monet_the-magpie-1869.jpg,claude monet,['Impressionism'],the-magpie-1869,c047b97895c7729a,1931,1382,1,train,Impressionism
+Impressionism/claude-monet_the-old-rue-de-la-chaussee-argenteuil.jpg,claude monet,['Impressionism'],the-old-rue-de-la-chaussee-argenteuil,f4c769308caee90b,1976,1382,1,train,Impressionism
+Impressionism/claude-monet_the-effect-of-fog-near-dieppe.jpg,claude monet,['Impressionism'],the-effect-of-fog-near-dieppe,d5be9621a2954bb4,1929,1382,1,train,Impressionism
+Impressionism/pierre-auguste-renoir_on-the-banks-of-the-river-1895.jpg,pierre auguste renoir,['Impressionism'],on-the-banks-of-the-river-1895,91b3c4ecf9ed9480,1560,1382,1,train,Impressionism
+Impressionism/pierre-auguste-renoir_bather-seated-on-a-rock-1892.jpg,pierre auguste renoir,['Impressionism'],bather-seated-on-a-rock-1892,daf62cd05c89d525,1382,1819,1,train,Impressionism
+Impressionism/pierre-auguste-renoir_vase-of-chrysanthemums-1882.jpg,pierre auguste renoir,['Impressionism'],vase-of-chrysanthemums-1882,fbde609cc3383648,1382,1728,1,train,Impressionism
+Impressionism/edgar-degas_dancer-tilting.jpg,edgar degas,['Impressionism'],dancer-tilting,d95864b4beb1d119,1382,1862,1,train,Impressionism
+Impressionism/edgar-degas_victoria-duborg.jpg,edgar degas,['Impressionism'],victoria-duborg,c3d3fcd851271519,1382,1735,1,train,Impressionism
+Impressionism/edgar-degas_the-star-dancer-on-pointe.jpg,edgar degas,['Impressionism'],the-star-dancer-on-pointe,c790b80f0676fe8c,1871,1382,1,test,Impressionism
+Post_Impressionism/vincent-van-gogh_sheet-with-sketches-of-a-digger-and-other-figures-1890.jpg,vincent van gogh,['Post Impressionism'],sheet-with-sketches-of-a-digger-and-other-figures-1890,b8c7c7188e3843e7,1814,1382,1,test,Post Impressionism
+Post_Impressionism/vincent-van-gogh_the-outskirts-of-paris-1886.jpg,vincent van gogh,['Post Impressionism'],the-outskirts-of-paris-1886,83f40c6996d72d1e,1703,1382,1,train,Post Impressionism
+Post_Impressionism/vincent-van-gogh_tiled-roof-with-chimneys-and-church-tower-1888.jpg,vincent van gogh,['Post Impressionism'],tiled-roof-with-chimneys-and-church-tower-1888,c2c59d1bd20dfd0a,1889,1382,1,train,Post Impressionism
+Post_Impressionism/paul-cezanne_flower-pots.jpg,paul cezanne,['Post Impressionism'],flower-pots,f87ae20197a6d983,1823,1382,1,train,Post Impressionism
+Post_Impressionism/paul-cezanne_bank-of-the-oise-1888.jpg,paul cezanne,['Post Impressionism'],bank-of-the-oise-1888,e4829d1afd0373c6,1684,1382,1,train,Post Impressionism
+Post_Impressionism/paul-cezanne_the-aqueduct-and-lock.jpg,paul cezanne,['Post Impressionism'],the-aqueduct-and-lock,bba9f484366013f5,1709,1382,1,train,Post Impressionism
+Post_Impressionism/paul-gauguin_bretons-and-cows-1889.jpg,paul gauguin,['Post Impressionism'],bretons-and-cows-1889,af25d4d0b96ec4c2,1382,2104,1,train,Post Impressionism
+Post_Impressionism/paul-gauguin_apples-in-bowl-1888.jpg,paul gauguin,['Post Impressionism'],apples-in-bowl-1888,a910d2ea1cfd62c7,1814,1382,1,train,Post Impressionism
+Post_Impressionism/paul-gauguin_orana-maria-hail-maria-1894.jpg,paul gauguin,['Post Impressionism'],orana-maria-hail-maria-1894,fb6d20b080f666c7,1382,1990,1,train,Post Impressionism
+Realism/james-tissot_caricature-of-edward-prince-of-wales.jpg,james tissot,['Realism'],caricature-of-edward-prince-of-wales,be64c3cbc43c9c38,1382,2175,1,train,Realism
+Realism/james-tissot_statesmen-no-930-caricature-of-the-duke-of-rutland.jpg,james tissot,['Realism'],statesmen-no-930-caricature-of-the-duke-of-rutland,e4ec9393cc6ccc64,1382,2230,1,train,Realism
+Realism/james-tissot_the-princesse-de-broglie.jpg,james tissot,['Realism'],the-princesse-de-broglie,905b2735d22fe790,1382,2468,1,train,Realism
+Realism/gustave-courbet_the-houses-of-the-chateau-d-ornans-1853.jpg,gustave courbet,['Realism'],the-houses-of-the-chateau-d-ornans-1853,c9d926b6b182b7b0,1776,1382,1,train,Realism
+Realism/gustave-courbet_bouquet-of-flowers-1.jpg,gustave courbet,['Realism'],bouquet-of-flowers-1,c089273b9eccc4f3,1686,1382,1,train,Realism
+Realism/gustave-courbet_snow-1874.jpg,gustave courbet,['Realism'],snow-1874,ea68b65e2533c361,1382,1514,1,train,Realism
+Realism/ivan-shishkin_on-the-shore-of-the-gulf-of-finland-udrias-near-narva-1888.jpg,ivan shishkin,['Realism'],on-the-shore-of-the-gulf-of-finland-udrias-near-narva-1888,fec09d1c42277c74,1520,1382,1,train,Realism
+Realism/ivan-shishkin_fir-1.jpg,ivan shishkin,['Realism'],fir-1,c686e60fee06bc4c,1382,1898,1,train,Realism
+Realism/ivan-shishkin_after-the-rain-etude-of-the-forest-1881.jpg,ivan shishkin,['Realism'],after-the-rain-etude-of-the-forest-1881,d7cedca4e1a56421,1382,2166,1,train,Realism
+Impressionism/camille-pissarro_windmill-at-knokke-belgium-1894.jpg,camille pissarro,['Impressionism'],windmill-at-knokke-belgium-1894,edcdb212cd45b449,1658,1382,1,train,Impressionism
+Realism/anders-zorn_sunbathing-girl.jpg,anders zorn,['Realism'],sunbathing-girl,da4cbaf99808d4e3,1382,1803,1,train,Realism
+Realism/boris-kustodiev_peasant-1914.jpg,boris kustodiev,['Realism'],peasant-1914,f133525b73697284,1382,2428,1,test,Realism
+Impressionism/john-miller_santa-maria-della-salute.jpg,john miller,['Impressionism'],santa-maria-della-salute,fb9f03313566e604,1382,1535,1,train,Impressionism
+Impressionism/willard-metcalf_the-winding-road.jpg,willard metcalf,['Impressionism'],the-winding-road,e1a39e06d87c8f61,1515,1382,1,train,Impressionism
+Impressionism/auguste-rodin_albert-ernest-carrie-belleuse.jpg,auguste rodin,['Impressionism'],albert-ernest-carrie-belleuse,ab059ab2752d4373,1382,1842,1,train,Impressionism
+Post_Impressionism/gwen-john_the-student-1903.jpg,gwen john,['Post Impressionism'],the-student-1903,8c4c369161b7cf36,1382,2370,1,train,Post Impressionism
+Post_Impressionism/periklis-vyzantios_summer-in-hydra.jpg,periklis vyzantios,['Post Impressionism'],summer-in-hydra,dce3329d62c88796,1685,1382,1,train,Post Impressionism
+Realism/vasily-vereshchagin_entrance-to-a-temple-in-nikko.jpg,vasily vereshchagin,['Realism'],entrance-to-a-temple-in-nikko,aaaa77558d0d6568,1758,1382,1,train,Realism
+Realism/vasily-vereshchagin_turkestan-officer-when-there-will-no-campaign-1873.jpg,vasily vereshchagin,['Realism'],turkestan-officer-when-there-will-no-campaign-1873,a10c1b3dcd7b2467,1382,2972,1,train,Realism
+Impressionism/paul-gauguin_two-vases-of-flowers-and-a-fan-1885.jpg,paul gauguin,['Impressionism'],two-vases-of-flowers-and-a-fan-1885,b7298c73b8e0199b,1382,2182,1,test,Impressionism
+Realism/vincent-van-gogh_basket-of-potatoes-1885-1(1).jpg,vincent van gogh,['Realism'],basket-of-potatoes-1885-1(1),8e5d63306cd39966,1813,1382,1,train,Realism
+Impressionism/john-henry-twachtman_last-touch-of-sun.jpg,john henry twachtman,['Impressionism'],last-touch-of-sun,ec9a8ad374288e8f,1692,1382,1,train,Impressionism
+Post_Impressionism/vincent-van-gogh_portrait-of-patience-escalier-1888.jpg,vincent van gogh,['Post Impressionism'],portrait-of-patience-escalier-1888,b74cb3604d76b116,1382,1813,1,train,Post Impressionism
+Impressionism/pierre-auguste-renoir_cagnes-landscape-with-woman-and-child-1910.jpg,pierre auguste renoir,['Impressionism'],cagnes-landscape-with-woman-and-child-1910,9ab3b3669a88394b,1649,1382,1,train,Impressionism
