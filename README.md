@@ -9,13 +9,17 @@ This model can predict up to 5 images in one upload.
 
 ![demo: painting analysis](image-1.png)
 
-This project develops a computer vision system for classifying painting styles using CNN. The objective is to distinguish among three artistic movements—Impressionism, Fauvism, and Art Nouveau Modern—by learning visual cues such as color composition, texture, and structural elements present in the artworks. 
+This project develops a computer vision system for classifying painting styles using CNN. The objective is to distinguish among three artistic movements—Impressionism, Fauvism, and Art Nouveau Modern—by learning visual cues such as color composition, texture, and structural elements present in the artworks.
 
 A baseline model was first implemented to establish a reference performance by learning features directly from the dataset. Subsequently, transfer learning was applied using a pretrained EfficientNet architecture, allowing the model to leverage rich visual representations learned from large-scale image datasets. Fine-tuning was then conducted by unfreezing selected layers of the pretrained backbone to further adapt the feature representations to the stylistic characteristics of the target painting classes. The final chosen model was TransferLearning due to its stability in improvement over baseline model.
 
-![Unknown Classification](image-2.png)
+![Fauvism](image-3.png)
 
-Model performance was evaluated using metrics including accuracy, log loss, and selective prediction analysis. Additionally, a confidence-based thresholding mechanism was implemented to enable the model to abstain from uncertain predictions, improving reliability while maintaining approximately 80% coverage. This model is able to label classifications into the 3 styles AND unknown labels. With confidence threshold of 59%, using 5 art-styles (3 from our classification plus Post-Impressionism and Realism), our model can detect 19% of unknown paintings accurately. On the other hand, for the known classes, accuracy was at 75%. 
+![Unknown Classification](image-4.png)
+
+Model performance was evaluated using metrics including accuracy, log loss, and selective prediction analysis. Additionally, a confidence-based thresholding mechanism was implemented to enable the model to abstain from uncertain predictions, improving reliability while maintaining approximately 80% coverage. This model is able to label classifications into the 3 styles AND unknown labels. With confidence threshold of 59%, using 5 art-styles (3 from our classification plus Post-Impressionism and Realism). During our inference testing, our model's accuracy was 75%. It can also detect 19% of unknown paintings accurately. The unknown detection rate was low because a lot of paintings actually share commonalities such as this one below. 
+
+![rococo as impressionism](image-5.png)
 
 ## Workflow Structures
 Below is the process on how I do this project. 

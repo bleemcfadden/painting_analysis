@@ -127,79 +127,52 @@ color_ranges = {
     "Magenta-Red": (271, 360)
 }
 
-def palette_by_hue_range(img, hue_min, hue_max, k=3, sat_min=35, val_min=25):
-    img = cv2.resize(img, (100, 100)).astype("uint8")
+def palette_by_hue_range(img, hue_min, hue_max, k=3):
+
+    img = cv2.resize(img, (120,120)).astype("uint8")
+
     hsv = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
 
-    hue = hsv[:, :, 0].astype(np.float32) * 2.0
-    sat = hsv[:, :, 1].astype(np.float32)
-    val = hsv[:, :, 2].astype(np.float32)
+    # convert OpenCV hue 0–179 → 0–360
+    hue = hsv[:, :, 0].astype(float) * 2
 
-    # initial pixel filter
-    mask = (
-        (hue >= hue_min) &
-        (hue < hue_max) &
-        (sat >= sat_min) &
-        (val >= val_min)
-    )
+    # non-circular hue segmentation
+    mask = (hue >= hue_min) & (hue < hue_max)
 
     pixels = img[mask]
 
-    if len(pixels) < 20:
+    if len(pixels) < 10:
         return None
 
-    n_clusters = min(k * 3, len(pixels))   # oversample first
-    kmeans = KMeans(
-        n_clusters=n_clusters,
-        n_init=10,
-        random_state=42
-    )
+    n_clusters = min(k, len(pixels))
 
+    kmeans = KMeans(n_clusters=n_clusters, n_init=10, random_state=42)
     labels = kmeans.fit_predict(pixels)
+
     centers = kmeans.cluster_centers_.astype(np.uint8)
 
     counts = np.bincount(labels)
+    order = np.argsort(counts)[::-1]
 
-    valid = []
-    valid_counts = []
+    palette = centers[order]
 
-    for c, cnt in zip(centers, counts):
-        hsv_c = cv2.cvtColor(c.reshape(1, 1, 3), cv2.COLOR_RGB2HSV)[0, 0]
-        h_c = float(hsv_c[0]) * 2.0
-        s_c = float(hsv_c[1])
-        v_c = float(hsv_c[2])
-
-        # keep only centers that truly belong to this bucket
-        if (hue_min <= h_c < hue_max) and (s_c >= sat_min) and (v_c >= val_min):
-            valid.append(c)
-            valid_counts.append(cnt)
-
-    if len(valid) == 0:
-        return None
-
-    valid = np.array(valid)
-    valid_counts = np.array(valid_counts)
-
-    order = np.argsort(-valid_counts)
-    valid = valid[order]
-
-    # if too many valid colors, keep top k
-    return valid[:k]
+    return palette[:k]
 
 #for the 5 dom palette
 def dominant_palette(img, k=5):
 
-    img = cv2.resize(img, (100,100))
+    img = cv2.resize(img, (120,120)).astype("uint8")
+
     pixels = img.reshape(-1,3)
 
-    kmeans = KMeans(n_clusters=k, n_init=10, random_state=18)
+    kmeans = KMeans(n_clusters=k, n_init=10, random_state=42)
 
     labels = kmeans.fit_predict(pixels)
 
-    centers = kmeans.cluster_centers_.astype(int)
+    centers = kmeans.cluster_centers_.astype(np.uint8)
 
     counts = np.bincount(labels)
-    order = np.argsort(-counts)
+    order = np.argsort(counts)[::-1]
 
     return centers[order]
 
